@@ -17,7 +17,7 @@ public class HelloWorldController {
         return "helloWorld/greeting";
     }
     @RequestMapping("/hello/{person}/{country}")
-    public String greetng2 (@PathVariable("person") String person, @PathVariable("country") String country,Model model){
+    public String greeting2 (@PathVariable("person") String person, @PathVariable("country") String country,Model model){
         model.addAttribute("personName",person);
         model.addAttribute("country",country);
         return "helloWorld/greeting";

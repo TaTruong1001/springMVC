@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33dace7-ed3e-468d-a32c-db71f8b98f89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/userForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/userResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="b33dace7-ed3e-468d-a32c-db71f8b98f89" name="Changes" comment="springMVC">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregistration/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregistration/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregistration/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/greeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/greeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/userForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/registration/userForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/helloWorld/userResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/registration/userResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +39,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6232e097-65e6-48e0-b62e-04cbea10e890" />
+        <option name="url" value="https://github.com/TaTruong1001/springMVC.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/mvc/formregistration/Gender.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/registration/userForm.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
@@ -64,6 +74,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2QEq7MZNFWfLRYpmwcxvF6657rK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -77,16 +90,17 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/Spring01/JPAdemo&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/Spring01/SpringMVC/src/main/webapp/WEB-INF/views&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;197ab33ac83a922a7bff2c25270af48d&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ebf85741b99c595fd8e371acde50121c&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -98,20 +112,25 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\Spring01\SpringMVC\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Admin\Documents\Spring01\SpringMVC\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Spring01\SpringMVC\src\main\webapp\WEB-INF\views\jsp\formregistration" />
       <recent name="C:\Users\Admin\Documents\Spring01\SpringMVC\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat9" type="com.poratu.idea.plugins.tomcat">
+    <configuration name="Tomcat9" type="com.poratu.idea.plugins.tomcat" activateToolWindowBeforeRun="false">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/SpringMVC" />
-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="docBase" value="C:\Users\Admin\Documents\Spring01\SpringMVC\src\main\webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -121,7 +140,28 @@
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
-      <module name="SpringMVC" />
+      <module name="mvc_hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.62" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../apache-tomcat-9.0.62" />
+          <option name="version" value="9.0.62.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +180,34 @@
       <workItem from="1684978140035" duration="610000" />
       <workItem from="1684978774923" duration="1007000" />
       <workItem from="1684979873421" duration="1160000" />
-      <workItem from="1684984492462" duration="2306000" />
+      <workItem from="1684984492462" duration="3953000" />
+      <workItem from="1685016698156" duration="2199000" />
+      <workItem from="1685018941510" duration="145000" />
+      <workItem from="1685019128375" duration="127000" />
+      <workItem from="1685019511915" duration="902000" />
+      <workItem from="1685027000717" duration="74000" />
+      <workItem from="1685027096968" duration="694000" />
+      <workItem from="1685030213961" duration="478000" />
+      <workItem from="1685030756058" duration="737000" />
+      <workItem from="1685068688773" duration="2326000" />
+      <workItem from="1685071117751" duration="1472000" />
+      <workItem from="1685098707022" duration="914000" />
     </task>
+    <task id="LOCAL-00001" summary="springMVC">
+      <created>1684988461420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684988461420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springMVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="springMVC" />
   </component>
 </project>
