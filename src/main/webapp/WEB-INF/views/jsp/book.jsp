@@ -12,7 +12,8 @@
 <div class="contain">
 
 
-    <form:form action="${{action}}" method="post" modelAttribute="book">
+    <form:form action="${action}" method="post" modelAttribute="book">
+
 
 
     <c:if test="${type.equals('update')}">
@@ -46,15 +47,15 @@
         <form:input type="number" class="form-control col-md-6" path="bookDetails.numberofPage" required="true" />
         <small class="form-text text-muted"><form:errors path="bookDetails.numberofPage" class="text-error" /></small>
     </div>
-
-    <div class="form-group">
-        <label for="exampleInputEmail1">Publish Date (*)</label>
-        <form:input type="date" class="form-control col-md-6" path="bookDetails.publishDate"  />
-    </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Publish Date (*)</label>
+            <form:input type="date" class="form-control col-md-6" path="bookDetails.publishDate"  />
+        </div>
     <div class="form-group">
         <label for="inputState">Category (*)</label>
         <form:select path="category.id" class="form-control col-md-6">
             <form:option value="0" label="Choose..." />
+
             <form:options items="${categoryList}" />
         </form:select>
 
@@ -64,6 +65,7 @@
     <button type="submit" class="btn btn-primary col-md-2">Save</button>
 
     </form:form>
-    <bo>
+
+
 </body>
 </html>

@@ -40,6 +40,8 @@
         <td>Non-Smoking: </td>
         <td>${user.nonSmoking}</td>
     </tr>
+    <button class="btn btn-sm btn-primary"
+            onclick="location.href='remove-sisson'">Remove</button>
 </table>
 </body>
 </html>

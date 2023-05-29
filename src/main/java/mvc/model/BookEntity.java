@@ -1,6 +1,7 @@
 package mvc.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name = "book")
@@ -11,6 +12,7 @@ public class BookEntity {
     private int id;
 
     @Column(name="name")
+   @NotEmpty
     private String name;
 
     @Column(name="author")

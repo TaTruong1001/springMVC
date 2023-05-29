@@ -1,5 +1,7 @@
 package mvc.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
@@ -12,6 +14,8 @@ public class BookDetailsEntity {
     private String isbn;
     private int price;
     private int numberofPage;
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate publishDate;
     @OneToOne(mappedBy = "bookDetails")
     private BookEntity book;

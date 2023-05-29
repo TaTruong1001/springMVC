@@ -8,9 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedHashMap;
@@ -53,6 +55,20 @@ public class BookController {
         return "book";
     }
     @RequestMapping(value ="/newBook",method = POST, produces ="text/plain;charset=UTF-8")
+    public String submitForm(@Valid @ModelAttribute("book") BookEntity book, BindingResult br, Model model)
+    {
+        if(br.hasErrors())
+        {
+            setCategoryDropDownlist(model);
+            return "book";
+        }
+        else
+        {
+            bookRepository.save(book);
+            return "redirect:/";
+        }
+    }
+
     public String saveBook(BookEntity book){
         bookRepository.save(book);
         return "redirect:/";
@@ -70,7 +86,7 @@ public class BookController {
     @RequestMapping(value = "/updateBook", method = POST)
     public String updateBook(@ModelAttribute BookEntity book){
         bookRepository.save(book);
-        return "redirect:/home";
+        return "redirect:/";
     }
    @RequestMapping(value = "/delete/{id}", method = GET)
    public String deleteBook(@PathVariable int id){
