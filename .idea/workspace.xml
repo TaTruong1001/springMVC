@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b33dace7-ed3e-468d-a32c-db71f8b98f89" name="Changes" comment="springMVC">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/registration/session.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/formregistration/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/formregistration/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/model/BookDetailsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/BookDetailsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/model/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/BookEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/book.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/registration/userResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/registration/userResult.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="b33dace7-ed3e-468d-a32c-db71f8b98f89" name="Changes" comment="springMVC" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +139,7 @@
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="contextPath" value="/SpringMVC" />
+      <option name="contextPath" value="" />
       <option name="docBase" value="C:\Users\Admin\Documents\Spring01\SpringMVC\src\main\webapp" />
       <option name="envOptions">
         <map />
@@ -228,7 +218,7 @@
       <workItem from="1685176187643" duration="3987000" />
       <workItem from="1685277353676" duration="2204000" />
       <workItem from="1685357880826" duration="5195000" />
-      <workItem from="1685363132891" duration="3854000" />
+      <workItem from="1685363132891" duration="4086000" />
     </task>
     <task id="LOCAL-00001" summary="springMVC">
       <created>1684988461420</created>
@@ -251,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685277819664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="springMVC">
+      <created>1685367731674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685367731674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
